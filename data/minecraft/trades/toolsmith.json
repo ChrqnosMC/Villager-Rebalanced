@@ -85,7 +85,7 @@
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:iron_boots"
+                "name": "minecraft:stone_axe"
               },
               "trader_experience": 5.0
             },
@@ -105,7 +105,7 @@
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:iron_helmet"
+                "name": "minecraft:stone_shovel"
               },
               "trader_experience": 5.0
             },
@@ -125,7 +125,7 @@
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:iron_leggings"
+                "name": "minecraft:stone_pickaxe"
               },
               "trader_experience": 5.0
             },
@@ -145,87 +145,7 @@
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:iron_chestplate"
-              },
-              "trader_experience": 5.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 4.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "max_uses": 12.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:chainmail_boots"
-              },
-              "trader_experience": 5.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 5.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "max_uses": 12.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:chainmail_helmet"
-              },
-              "trader_experience": 5.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 7.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "max_uses": 12.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:chainmail_leggings"
-              },
-              "trader_experience": 5.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 9.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "max_uses": 12.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:chainmail_chestplate"
+                "name": "minecraft:stone_hoe"
               },
               "trader_experience": 5.0
             }
@@ -242,7 +162,14 @@
             {
               "cost_a": {
                 "type": "minecraft:item",
-                "name": "minecraft:lava_bucket"
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 30.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:flint"
               },
               "max_uses": 12.0,
               "price_multiplier": 0.05,
@@ -285,17 +212,17 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 5.0,
+                    "count": 4.0,
                     "function": "minecraft:set_count"
                   }
                 ],
                 "name": "minecraft:emerald"
               },
-              "max_uses": 12.0,
-              "price_multiplier": 0.05,
+              "max_uses": 3.0,
+              "price_multiplier": 0.2,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:shield"
+                "name": "minecraft:diamond_hoe"
               },
               "trader_experience": 10.0
             },
@@ -335,7 +262,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 4.0,
+                    "count": 6.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -343,13 +270,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
+                "name": "minecraft:diamond_axe"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
+                "name": "minecraft:diamond_pickaxe"
               },
               "trader_experience": 15.0
             },
@@ -359,7 +286,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 4.0,
+                    "count": 6.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -367,13 +294,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
+                "name": "minecraft:diamond_axe"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
+                "name": "minecraft:diamond_shovel"
               },
               "trader_experience": 15.0
             },
@@ -383,7 +310,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 4.0,
+                    "count": 6.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -391,13 +318,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
+                "name": "minecraft:diamond_pickaxe"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
+                "name": "minecraft:diamond_axe"
               },
               "trader_experience": 15.0
             },
@@ -407,7 +334,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 3.0,
+                    "count": 6.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -415,13 +342,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
+                "name": "minecraft:diamond_pickaxe"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
+                "name": "minecraft:diamond_shovel"
               },
               "trader_experience": 15.0
             },
@@ -431,7 +358,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 3.0,
+                    "count": 8.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -439,13 +366,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
+                "name": "minecraft:diamond_shovel"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
+                "name": "minecraft:diamond_axe"
               },
               "trader_experience": 15.0
             },
@@ -455,7 +382,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 3.0,
+                    "count": 8.0,
                     "function": "minecraft:set_count"
                   }
                 ],
@@ -463,157 +390,13 @@
               },
               "cost_b": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
+                "name": "minecraft:diamond_shovel"
               },
               "max_uses": 3.0,
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 4.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 4.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 4.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 2.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_boots"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 2.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_leggings"
-              },
-              "trader_experience": 15.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 2.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_chestplate"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "result": {
-                "type": "minecraft:item",
-                "name": "minecraft:diamond_helmet"
+                "name": "minecraft:diamond_pickaxe"
               },
               "trader_experience": 15.0
             }
@@ -633,7 +416,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 14.0,
+                    "count": 12.0,
                     "function": "minecraft:set_count"
                   },
                   {
@@ -659,7 +442,6 @@
                 "name": "minecraft:diamond"
               },
               "max_uses": 3.0,
-              "price_multiplier": 0.05,
               "reference_providers": {
                 "enchantLevel": {
                   "type": "minecraft:uniform",
@@ -675,11 +457,10 @@
                     "levels": {
                       "type": "villagerconfig:reference",
                       "id": "enchantLevel"
-                    },
-                    "options": "#minecraft:on_traded_equipment"
+                    }
                   }
                 ],
-                "name": "minecraft:diamond_leggings"
+                "name": "minecraft:diamond_axe"
               },
               "trader_experience": 30.0
             },
@@ -689,7 +470,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 8.0,
+                    "count": 5.0,
                     "function": "minecraft:set_count"
                   },
                   {
@@ -708,14 +489,13 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 2.0,
+                    "count": 1.0,
                     "function": "minecraft:set_count"
                   }
                 ],
                 "name": "minecraft:diamond"
               },
               "max_uses": 3.0,
-              "price_multiplier": 0.05,
               "reference_providers": {
                 "enchantLevel": {
                   "type": "minecraft:uniform",
@@ -731,11 +511,10 @@
                     "levels": {
                       "type": "villagerconfig:reference",
                       "id": "enchantLevel"
-                    },
-                    "options": "#minecraft:on_traded_equipment"
+                    }
                   }
                 ],
-                "name": "minecraft:diamond_boots"
+                "name": "minecraft:diamond_shovel"
               },
               "trader_experience": 30.0
             },
@@ -745,7 +524,7 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 8.0,
+                    "count": 13.0,
                     "function": "minecraft:set_count"
                   },
                   {
@@ -764,14 +543,13 @@
                 "functions": [
                   {
                     "add": false,
-                    "count": 2.0,
+                    "count": 3.0,
                     "function": "minecraft:set_count"
                   }
                 ],
                 "name": "minecraft:diamond"
               },
               "max_uses": 3.0,
-              "price_multiplier": 0.05,
               "reference_providers": {
                 "enchantLevel": {
                   "type": "minecraft:uniform",
@@ -787,67 +565,10 @@
                     "levels": {
                       "type": "villagerconfig:reference",
                       "id": "enchantLevel"
-                    },
-                    "options": "#minecraft:on_traded_equipment"
+                    }
                   }
                 ],
-                "name": "minecraft:diamond_helmet"
-              },
-              "trader_experience": 30.0
-            },
-            {
-              "cost_a": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 16.0,
-                    "function": "minecraft:set_count"
-                  },
-                  {
-                    "add": true,
-                    "count": {
-                      "type": "villagerconfig:reference",
-                      "id": "enchantLevel"
-                    },
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:emerald"
-              },
-              "cost_b": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "add": false,
-                    "count": 4.0,
-                    "function": "minecraft:set_count"
-                  }
-                ],
-                "name": "minecraft:diamond"
-              },
-              "max_uses": 3.0,
-              "price_multiplier": 0.05,
-              "reference_providers": {
-                "enchantLevel": {
-                  "type": "minecraft:uniform",
-                  "max": 19.0,
-                  "min": 5.0
-                }
-              },
-              "result": {
-                "type": "minecraft:item",
-                "functions": [
-                  {
-                    "function": "minecraft:enchant_with_levels",
-                    "levels": {
-                      "type": "villagerconfig:reference",
-                      "id": "enchantLevel"
-                    },
-                    "options": "#minecraft:on_traded_equipment"
-                  }
-                ],
-                "name": "minecraft:diamond_chestplate"
+                "name": "minecraft:diamond_pickaxe"
               },
               "trader_experience": 30.0
             },
