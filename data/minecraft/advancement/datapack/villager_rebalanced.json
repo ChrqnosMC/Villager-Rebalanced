@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": "Villager Rebalanced",
+		"description": [
+			"",
+			{
+				"text": "Some extra villager trades.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:datapack/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
