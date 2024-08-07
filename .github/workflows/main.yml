@@ -1,0 +1,48 @@
+name: Modrinth release
+on: 
+  push:
+    tags:
+      - '*'
+    branches-ignore:
+      - 'java-latest'
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    if: ${{github.ref_type == 'tag'}}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: src
+      - name: Get Branch
+        id: get_branch
+        run: |
+          cd src
+          echo "branch=1.21" >> $GITHUB_ENV
+          tag=${{github.ref_name}}
+          echo "tag=$tag" >> $GITHUB_ENV
+          echo "name=villager-rebalanced-dp" >> $GITHUB_ENV
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{env.name}}-${{env.branch}}-${{env.tag}}
+          path: src
+      - name: Create zip file
+        run: zip -r ${{env.name}}-${{env.branch}}-${{env.tag}}.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt"
+        working-directory: src
+      - name: Read supported versions
+        uses: andstor/file-reader-action@v1
+        id: read_file
+        with:
+          path: src/supported_versions.txt
+      - name: Upload to modrinth
+        uses: kir-antipov/mc-publish@v3.3
+        with:
+          modrinth-token: ${{secrets.ACCESS_TOKEN}}
+          modrinth-id: MeRlN9qr
+          name: Villager Rebalanced DP ${{env.branch}}-${{env.tag}}
+          version: ${{env.tag}}
+          files: |
+            src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip
+          game-versions: ${{steps.read_file.outputs.contents}}
+          loaders: datapack
