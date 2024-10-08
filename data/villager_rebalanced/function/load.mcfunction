@@ -1,1 +1,1 @@
-tellraw @a ["",{"text":"Villager Rebalanced datapack has been reloaded","bold":true,"color":"white"}]
+tellraw @a ["",{"text":"Villager Rebalanced datapack has been reloaded"}]
