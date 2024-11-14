@@ -46,4 +46,4 @@ jobs:
           files: |
             src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
-          loaders: datapack
+          loaders: datapack fabric
