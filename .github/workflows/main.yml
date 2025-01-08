@@ -18,7 +18,7 @@ jobs:
         id: get_branch
         run: |
           cd src
-          echo "branch=1.21.4" >> $GITHUB_ENV
+          echo "branch=" >> $GITHUB_ENV
           tag=${{github.ref_name}}
           echo "tag=$tag" >> $GITHUB_ENV
           echo "name=villager-rebalanced-dp" >> $GITHUB_ENV
