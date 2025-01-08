@@ -18,17 +18,16 @@ jobs:
         id: get_branch
         run: |
           cd src
-          echo "branch=" >> $GITHUB_ENV
           tag=${{github.ref_name}}
           echo "tag=$tag" >> $GITHUB_ENV
           echo "name=villager-rebalanced-dp" >> $GITHUB_ENV
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{env.name}}-${{env.branch}}-${{env.tag}}
+          name: ${{env.name}}-${{env.tag}}
           path: src
       - name: Create zip file
-        run: zip -r ${{env.name}}-${{env.branch}}-${{env.tag}}.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt"
+        run: zip -r ${{env.name}}-${{env.tag}}.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt"
         working-directory: src
       - name: Read supported versions
         uses: andstor/file-reader-action@v1
@@ -41,9 +40,9 @@ jobs:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: MeRlN9qr
           game-version-filter: none
-          name: Villager Rebalanced DP ${{env.branch}}-${{env.tag}}
+          name: Villager Rebalanced DP ${{env.tag}}
           version: ${{env.tag}}
           files: |
-            src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip
+            src/${{env.name}}-${{env.tag}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack fabric
