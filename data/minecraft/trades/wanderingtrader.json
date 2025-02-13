@@ -1889,6 +1889,33 @@
                     "add": false,
                     "count": 1.0,
                     "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:emerald"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:pale_oak_log"
+              },
+              "trader_experience": 1.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
                   },
                   {
                     "add": true,
