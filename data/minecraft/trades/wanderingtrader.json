@@ -1247,6 +1247,13 @@
               "price_multiplier": 0.05,
               "result": {
                 "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
                 "name": "minecraft:pale_hanging_moss"
               },
               "trader_experience": 1.0
