@@ -1,0 +1,32 @@
+{
+	"pack": {
+		"pack_format": 80,
+		"supported_formats": [45,80],
+		"description": "Villager Rebalanced"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 45,
+					"max_inclusive": 57
+				},
+				"directory": "overlay_45"
+			},
+			{
+				"formats": {
+					"min_inclusive": 58,
+					"max_inclusive": 66
+				},
+				"directory": "overlay_58"
+			},
+			{
+				"formats": {
+					"min_inclusive": 67,
+					"max_inclusive": 80
+				},
+				"directory": "overlay_67"
+			}
+		]
+	}
+}
