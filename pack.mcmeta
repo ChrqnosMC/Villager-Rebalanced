@@ -1,9 +1,9 @@
 {
 	"pack": {
-		"pack_format": 88,
-		"supported_formats": [45,88],
+		"pack_format": 94,
+		"supported_formats": [45,94],
 		"min_format": [45,0],
-		"max_format": [88,0],
+		"max_format": [94,1],
 		"description": "Villager Rebalanced"
 	},
 	"overlays": {
