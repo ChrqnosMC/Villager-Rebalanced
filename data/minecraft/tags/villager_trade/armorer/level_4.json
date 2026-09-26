@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:common_smith/level_4",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_boots_diamond_leggings",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_helmet_diamond_leggings",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_chestplate_diamond_leggings",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_leggings_diamond_boots",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_helmet_diamond_boots",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_chestplate_diamond_boots",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_leggings_diamond_helmet",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_boots_diamond_helmet",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_chestplate_diamond_helmet",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_leggings_diamond_chestplate",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_boots_diamond_chestplate",
+    "villager_rebalanced:armorer/4/emerald_and_diamond_helmet_diamond_chestplate"
+  ]
+}
