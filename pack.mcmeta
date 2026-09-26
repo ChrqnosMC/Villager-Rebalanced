@@ -1,7 +1,6 @@
 {
 	"pack": {
 		"pack_format": 121,
-		"supported_formats": [95,121],
 		"min_format": [95,0],
 		"max_format": [121,0],
 		"description": "Villager Rebalanced"
@@ -9,7 +8,6 @@
 	"overlays": {
 		"entries": [
 			{
-				"formats": [100,121],
 				"min_format": [100,0],
 				"max_format": [121,0],
 				"directory": "overlay_100"

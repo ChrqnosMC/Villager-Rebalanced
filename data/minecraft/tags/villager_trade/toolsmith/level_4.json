@@ -1,11 +1,11 @@
 {
   "values": [
     "#minecraft:common_smith/level_4",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_shovel_diamond_axe",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_pickaxe_diamond_axe",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_axe_diamond_shovel",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_pickaxe_diamond_shovel",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_axe_diamond_pickaxe",
-    "villager_rebalanced:armorer/4/emerald_and_diamond_shovel_diamond_pickaxe"
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_shovel_diamond_axe",
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_pickaxe_diamond_axe",
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_axe_diamond_shovel",
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_pickaxe_diamond_shovel",
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_axe_diamond_pickaxe",
+    "villager_rebalanced:toolsmith/4/emerald_and_diamond_shovel_diamond_pickaxe"
   ]
 }
