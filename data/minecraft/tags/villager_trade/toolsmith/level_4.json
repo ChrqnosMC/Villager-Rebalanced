@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "#minecraft:common_smith/level_4",
     "villager_rebalanced:toolsmith/4/emerald_and_diamond_shovel_diamond_axe",

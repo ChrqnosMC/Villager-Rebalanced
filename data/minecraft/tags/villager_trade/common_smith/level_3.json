@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:smith/2/emerald_bell",
     "villager_rebalanced:smith/3/diamond_emerald"

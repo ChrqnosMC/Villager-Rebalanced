@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:toolsmith/1/emerald_stone_axe",
     "minecraft:toolsmith/1/emerald_stone_hoe",

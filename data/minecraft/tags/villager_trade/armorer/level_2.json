@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:armorer/1/emerald_iron_leggings",
     "minecraft:armorer/1/emerald_iron_boots",

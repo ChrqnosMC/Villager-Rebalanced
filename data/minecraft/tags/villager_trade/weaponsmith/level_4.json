@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "villager_rebalanced:weaponsmith/4/emerald_and_diamond_axe_diamond_sword",
     "villager_rebalanced:weaponsmith/4/emerald_and_diamond_sword_diamond_axe"

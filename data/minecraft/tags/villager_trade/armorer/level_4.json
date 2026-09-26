@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "#minecraft:common_smith/level_4",
     "villager_rebalanced:armorer/4/emerald_and_diamond_boots_diamond_leggings",

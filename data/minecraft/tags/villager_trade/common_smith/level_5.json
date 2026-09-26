@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "villager_rebalanced:smith/5/iron_block_emerald",
     "villager_rebalanced:smith/5/diamond_block_emerald"

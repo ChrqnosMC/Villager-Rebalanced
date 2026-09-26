@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "#minecraft:common_smith/level_3",
     "minecraft:armorer/3/lava_bucket_emerald",
