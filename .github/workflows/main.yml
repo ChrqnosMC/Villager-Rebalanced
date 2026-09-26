@@ -18,7 +18,7 @@ jobs:
           cd src
           tag=${{github.ref_name}}
           echo "tag=$tag" >> $GITHUB_ENV
-          echo "name=villager-rebalanced-dp" >> $GITHUB_ENV
+          echo "name=villager-rebalanced" >> $GITHUB_ENV
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -38,9 +38,9 @@ jobs:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: MeRlN9qr
           game-version-filter: none
-          name: Villager Rebalanced DP ${{env.tag}}
+          name: Villager Rebalanced ${{env.tag}}
           version: ${{env.tag}}
           files: |
             src/${{env.name}}-${{env.tag}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
-          loaders: datapack fabric
+          loaders: datapack
