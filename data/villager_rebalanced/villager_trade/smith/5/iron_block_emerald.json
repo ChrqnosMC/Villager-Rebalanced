@@ -1,12 +1,12 @@
 {
   "gives": {
-    "id": "minecraft:iron_block"
+    "count": 4,
+    "id": "minecraft:emerald"
   },
   "max_uses": 12,
   "reputation_discount": 0.05,
   "wants": {
-    "count": 4,
-    "id": "minecraft:emerald"
+    "id": "minecraft:iron_block"
   },
   "xp": 30
 }

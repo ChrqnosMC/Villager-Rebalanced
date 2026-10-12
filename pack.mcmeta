@@ -14,18 +14,13 @@
 			},
 			{
 				"min_format": [100,0],
-				"max_format": [118,0],
+				"max_format": [121,0],
 				"directory": "overlay_100"
 			},
 			{
 				"min_format": [111,0],
-				"max_format": [118,0],
-				"directory": "overlay_111"
-			},
-			{
-				"min_format": [119,0],
 				"max_format": [121,0],
-				"directory": "overlay_119"
+				"directory": "overlay_111"
 			}
 		]
 	}
